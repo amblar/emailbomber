@@ -6,7 +6,7 @@ There are several ways to install Emailbomber. Pre-compiled binaries are availab
   
 **Python Installer**  
 For Darwin and Linux, a Python installer is available. Simply run:  
-`$ sh -c "$(curl https://raw.githubusercontent.com/amblar/master/install.sh -s)"`  
+`$ sh -c "$(curl https://raw.githubusercontent.com/amblar/emailbomber/master/install.sh -s)"`  
 The correct binary will automatically be installed into `/usr/bin` or `/usr/local/bin` on MacOS.  
   
 **Pre-compiled Binaries**  

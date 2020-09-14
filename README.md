@@ -12,7 +12,7 @@ The correct binary will automatically be installed into `/usr/bin` or `/usr/loca
 **Pre-compiled Binaries**  
 Download the [latest release](https://github.com/amblar/emailbomber/releases/latest) from the releases tab which matches your system. Then copy the binary to `/usr/bin` or `/usr/local/bin` on MacOS, after that you will be able to run it using `emailbomber` in your terminal. Example:  
 `$ tar -xvzf emailbomber-v0.1.0-linux-amd64.tar.gz`  
-`$ sudo cp kryer-v0.1.0-linux-amd64/emailbomber /usr/bin/emailbomber`  
+`$ sudo cp emailbomber-v0.1.0-linux-amd64/emailbomber /usr/bin/emailbomber`  
 You can now run it:  
 `$ emailbomber --help`  
   
@@ -27,7 +27,7 @@ If pre-compiled binaries are not available for your system or you don't want to 
   
 Start by cloning the repository into `YourGopath/src/github.com/amblar/emailbomber`. You can then build and install it using `$ sudo make install`, unless you do not have a `/usr/bin` directory (will install to `/usr/local/bin` on MacOS due to SIP).
   
-If that is the case you can build using `$ make build` or `$ go build` in the Kryer directory.  
+If that is the case you can build using `$ make build` or `$ go build` in the Emailbomber directory.  
   
 # Usage
 To run Emailbomber:  
